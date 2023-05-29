@@ -48,7 +48,7 @@ def draw_circle(event,x,y,flags,param):
 os.environ['CUDA_VISIBLE_DEVICES']="2"
 
 # load image
-img = Image.open('/home/ksko/Desktop/Low-light/CVPR2022/BMVC_code/data/test_data/NPE/night (50).jpg')
+img = Image.open('./camera_7.jpg')
 img = np.asarray(img)
 
 # rgb2y -> Tensor
